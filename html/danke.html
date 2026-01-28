@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danke-Seite</title>
+    <link rel="icon" type="image/png" href="./images/logo.png" />
+    <link rel="stylesheet" href="../css/danke.css" />
+    <meta name="Danke-Seite" content="Inhalt Danke-Seite" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pirata+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Oberer Textblock (unverändert) -->
+    <div class="text-container">
+      <h1 class="goldman-regular">THANK YOU FOR THE MESSAGE !</h1>
+      <p style="font-size: 20px" class="goldman-regular">
+        The form has been submitted succesfully
+      </p>
+    </div>
+
+    <!-- ======================================= -->
+    <!-- ===== ANIMATIONS-CONTAINER (JETZT MIT LINKS) ===== -->
+    <!-- ======================================= -->
+    <div class="animation-container">
+      <!-- 1. Der Link zur vorherigen Seite (links) -->
+      <a
+        href="javascript:history.back()"
+        class="danke-link danke-link-left pirata-one-regular"
+      >
+        RETURN TO THE<br />PREVIOUS PAGE
+      </a>
+
+      <!-- 2. Der Link zur Homepage (rechts) -->
+      <a
+        href="../index.php"
+        class="danke-link danke-link-right pirata-one-regular"
+      >
+        GO TO THE<br />HOMEPAGE
+      </a>
+
+      <!-- Die Auto-Animation selbst bleibt hier drin -->
+    </div>
+  </body>
+</html>

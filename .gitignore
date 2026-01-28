@@ -1,0 +1,15 @@
+# Videos (nur im videos-Ordner)
+/videos/*.mp4
+/videos/*.mov
+/videos/*.avi
+/videos/*.webm
+/videos/*.mkv
+
+# Große Bildformate (nur images)
+/images/*.psd
+/images/*.raw
+/images/*.tiff
+
+# System
+.DS_Store
+Thumbs.db
